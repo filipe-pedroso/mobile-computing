@@ -1,0 +1,26 @@
+//import React from 'react';
+//import ReactDOM from 'react-dom';
+
+function Welcome() {
+   return (
+      <div>
+      <section style={{backgroundColor: "lightblue"}}>
+        <h1>Computação móvel</h1>
+        <h1>React</h1>
+        <h4>Biblioteca JS para utilizar UI</h4>
+        <p>Aula um</p>
+      </section>
+
+      <section style={{backgroundColor: "lightGreen"}}>
+        <h1>Vamos utilizar</h1>
+          <h4><li>HTML</li></h4>
+          <h4><li>CSS</li></h4>
+          <h4><li>JavaScript</li></h4>
+      </section>
+    </div>
+   );
+}
+
+
+ReactDOM.render(<Welcome/>,
+    document.getElementById('root'));
